@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Kanit' rel='stylesheet'>
+   
+<style type="text/css">
+    .font-color{
+      color: #BBB293; 
+      font-family: 'Kanit';
+    }
+    .row {
+  display: flex; /* จัดแถวหน้าเว็บเรา ให้เป็นแถว*/
+}
+
+/* Create two equal columns that sits next to each other */
+.column { 
+  flex: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+img{
+   border-radius: 50px; /* ความโค้งของกรอบรูป */
+}
+.card { /*กรอบ สินค้ามาใหม่*/
+ background: #F9F8F5;
+  transition: 0.3s; /*โปร่งแสง*/
+  width: 100%;  
+  border-radius: 5px; /*โค้งของกรอบ*/
+}
+.nav { /* แถบบน */
+  padding: 0;
+  background-color: #BBB293;
+  height: 50px;
+}
+  </style>
+</head>
+<body>
+
+<div class="font-color"> 
+  <div class="nav">
+    <a href="https://instagram.com/khunaum.skin?igshid=YmMyMTA2M2Y=" target="_blank" 
+    style="float:right ; padding-right: 50px; padding-top: 5px;" > <!--href ใส่ลิ้งค์ target="_blank" หน้าใหม่-->
+      <font color="#fff">CONTACT</font></a>
+  </div>
+<center> <!--ตรงกลาง-->
+<h2 style="margin-bottom: -15px; font-size: 50px;">AMARI A</h2>
+<p>natural products</p>
+<hr> <!--ขีดยาวๆๆๆ-->
+<h4>BEST SELLERS</h4> 
+
+
+
+</center>
+<div class="row"> <!-- 1แถวจ้า-->
+    <div class="column" >
+      <center><img src="S__5095548.jpg" width="400px" height="400px"> </center> <!--ใส่%เพื่อให้ย่อขยายตามจอ-->
+      <center><p>KAANI BASIC BEACH SET</p></center> <!-- center กำหนดให้อยู่ตรงกลางคอลัม-->
+      <center><p>1790 THB</p></center>
+    </div>
+    <div class="column">
+      <center><img src="S__5095550.jpg" width="400px" height="400px"></center>
+       <center><p>AURORA PROOF SCREEN LIGHT PROTECT SPF50PA+++</p></center>
+       <center><p>490 THB</p></center>
+    </div>
+    <div class="column">
+      <center> <img src="S__5095551.jpg" width="400px" height="400px"> </center>
+       <center><p>HONEY ORGANIC SERUM</p></center>
+       <center><p>390 THB</p></center>
+    </div>
+  </div>
+  <div class="row" style="margin-top: 20%;">
+    <div class="card">
+      <table> <!--แถว1แถว-->
+        <tr> <!-- tr แถว td คอลัม ของตาราง เริ่มจากtable-->
+          <td width="40%">
+            <center><img src="IMG_0986.png" width="60" style="margin-bottom: -10px;"></center>
+            <img src="S__5095552.jpg" width="100%" height="381">
+          </td>
+          <td align="center" width="10%"><p style="font-size: 70px;">1.</p></td> <!--align ตรงกลางของคอลัม-->
+          <td width="50%">
+            <p>IMMORTAL SERUM BY WELALAMOON</p>
+            <p>15ml.</p>
+            <p>490 THB</p>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <div class="row" style="margin-top: 1%;">
+    <div class="card">
+      <table>
+        <tr>
+          <td width="40%">
+            <center><img src="IMG_0986.png" width="60" style="margin-bottom: -10px;"></center>
+            <img src="S__5095553_0.jpg" width="100%" height="381">
+          </td>
+          <td align="center" width="10%"><p style="font-size: 70px;">2.</p></td>
+          <td width="50%">
+            <p>AWENA VIT-C PERFECT BRIGHTENING SKIN</p>
+            <p>15ml.</p>
+            <p>590 THB</p>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <div class="row" style="margin-top: 1%;">
+    <div class="card">
+      <table>
+        <tr>
+          <td width="40%">
+            <center><img src="IMG_0986.png" width="60" style="margin-bottom: -10px;"></center>
+            <img src="S__5095554.jpg" width="100%" height="381">
+          </td>
+          <td align="center" width="10%"><p style="font-size: 70px;">3.</p></td>
+          <td width="50%">
+            <p>AURORA PROOF SCREEN LIGHT PROTECT SPF50PA+++</p>
+            <p>30ml.</p>
+            <p>490 THB</p>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+ 
+  </div>
+  <div class="nav"></div> <!--แถมล่าง-->
+</body>
+</html>
